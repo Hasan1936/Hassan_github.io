@@ -205,13 +205,15 @@ figure {
 }
 
 img {
+  position: relative;
+  top: 85px;
+  left: 20px;
   vertical-align: middle;
   border-style: none;
 }
 img.oval-img {
-  width: 400px;
-  height: 450px;
-  border-radius: 50%;
+  width: 370px;
+  border-radius: 60%;
 }
 svg {
   overflow: hidden;
@@ -11087,7 +11089,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  font-size: calc(13px + (15 - 13) * ((100vw - 300px) / (1300 - 300)));
+  font-size: calc(15px + (15 - 13) * ((100vw - 300px) / (1300 - 300)));
   font-weight: 100;
   opacity: 1;
   color: #111;
