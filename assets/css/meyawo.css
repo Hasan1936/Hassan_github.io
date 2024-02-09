@@ -8936,8 +8936,8 @@ button.bg-dark:focus {
 
 .mb-3,
 .my-3 {
-  margin-top: -4rem;
-  margin-bottom: -2rem !important;
+  margin-top: 0rem;
+  margin-bottom: -3rem !important;
 }
 
 .ml-3,
@@ -12224,8 +12224,7 @@ pre .code {
 }
 
 .section .section-subtitle {
-  margin-top: 86px:
-  margin-bottom: 60px;
+  margin-top: 5rem;
   font-weight: 400;
   opacity: .6;
 }
