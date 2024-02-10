@@ -36,3 +36,13 @@ $('#nav-toggle').click(function(){
     $(this).toggleClass('is-active')
     $('ul.nav').toggleClass('show');
 });
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+  var typed = new Typed('.typed', {
+    strings: ["Mechanical Engineer", "Creator", "Learner"],
+    typeSpeed: 40,
+    backSpeed: 20,
+    loop: true,
+  });
+</script>
