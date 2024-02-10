@@ -31,12 +31,6 @@ $(document).ready(function(){
     });
 });
 
-// navbar toggle
-$('#nav-toggle').click(function(){
-    $(this).toggleClass('is-active')
-    $('ul.nav').toggleClass('show');
-});
-
 //animated text
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 <script>
@@ -47,3 +41,9 @@ $('#nav-toggle').click(function(){
     loop: true,
   });
 </script>
+
+// navbar toggle
+$('#nav-toggle').click(function(){
+    $(this).toggleClass('is-active')
+    $('ul.nav').toggleClass('show');
+});
