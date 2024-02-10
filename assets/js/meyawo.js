@@ -31,16 +31,6 @@ $(document).ready(function(){
     });
 });
 
-//animated text
-<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-<script>
-  var typed = new Typed('.typed', {
-    strings: ["Mechanical Engineer", "Creator", "Learner"],
-    typeSpeed: 40,
-    backSpeed: 20,
-    loop: true,
-  });
-</script>
 
 // navbar toggle
 $('#nav-toggle').click(function(){
