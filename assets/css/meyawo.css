@@ -104,15 +104,24 @@ position: relative;
 
 @keyframes typing{
   to{
-     width: 0%;
+     width: 44%;
+    background-color: #eae9f3;
   }
 }
 
 @keyframes line{
  50%{
    color: transparent;
+   background-color: #eae9f3;
  }
 }             
+
+@keyframes blink{
+ 50%{
+   opacity: 0;
+   background-color: #eae9f3;
+ }
+
 
 p {
   margin-top: 3rem;
