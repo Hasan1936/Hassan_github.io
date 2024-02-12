@@ -116,12 +116,6 @@ position: relative;
  }
 }             
 
-@keyframes blink{
- 50%{
-   opacity: 0;
-   background-color: #eae9f3;
- }
-
 
 p {
   margin-top: 3rem;
