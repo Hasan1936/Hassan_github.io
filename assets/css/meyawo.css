@@ -114,6 +114,15 @@ position: relative;
  }
 }             
 
+@keyframes backgroundColorChange {
+  0%, 100% {
+    background-color: #eae9f3; /* Set initial and final background color explicitly */
+  }
+  50% {
+    background-color: #eae9f3; /* Set the desired background color */
+  }
+}
+
 p {
   margin-top: 3rem;
   margin-bottom: 0rem;
