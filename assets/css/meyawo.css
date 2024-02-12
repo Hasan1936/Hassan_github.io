@@ -106,24 +106,12 @@ position: relative;
   to{
      width: 44%;
   }
-  from {
-    background-color: #eae9f3; /* Set background color explicitly */
-  }
-  to {
-    background-color: #eae9f3; /* Set background color explicitly */
-  }
 }
 
 @keyframes line{
  50%{
    color: transparent;
  }
-  from {
-    background-color: #eae9f3; /* Set background color explicitly */
-  }
-  to {
-    background-color: #eae9f3; /* Set background color explicitly */
-  }
 }             
 
 p {
