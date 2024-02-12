@@ -102,47 +102,17 @@ position: relative;
           line 1s infinite;
 }
 
-@keyframes typing {
-  0% {
-    width: 100%;
-  }
-  100% {
-    width: 0%;
+@keyframes typing{
+  to{
+     width: 0%;
   }
 }
 
-@keyframes line {
-  50% {
-    color: transparent;
-  }
-}
-
-/* Animation logic for multiple strings: */
-
-.typewriter:after {
-  -webkit-mask-image: linear-gradient(-45deg, transparent 0%, transparent 100%, black 99%, black 100%);
-  animation: mask 12s 3s steps(3) forwards; /* Adjusted duration and steps */
-}
-
-@keyframes mask {
-  0% {
-    -webkit-mask-position: 0 100%;
-  }
-  33% {
-    -webkit-mask-position: 0 0%; /* Reveals "Mechanical Engineer" */
-  }
-  66% {
-    -webkit-mask-position: 33.3% 0%; /* Reveals "Designer" */
-  }
-  100% {
-    -webkit-mask-position: 100% 0%; /* Reveals "Creator" */
-  }
-}
-
-.word {
-  display: inline-block; /* Allow inline breaks between words */
-  white-space: nowrap; /* Prevent words from wrapping inside container */
-}
+@keyframes line{
+ 50%{
+   color: transparent;
+ }
+}             
 
 p {
   margin-top: 3rem;
