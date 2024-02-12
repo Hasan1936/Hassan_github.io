@@ -94,6 +94,7 @@ position: relative;
 .typewriter::after{
   content: '|';
   position: absolute;
+  right: 0;
   color: #212529;
   background-color: #eae9f3;
   width: 100%;
@@ -102,11 +103,9 @@ position: relative;
 }
 
 @keyframes typing{
-  0% {
-    }
-    100% {
-        width: calc(100% - (1ch * strlen(content()))); /* Calculate width based on content length */
-    }
+  to{
+     width: 0%;
+  }
 }
 
 @keyframes line{
