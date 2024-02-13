@@ -97,8 +97,7 @@ white-space: nowrap;
   position: absolute;
   right: 0;
   color: #212529;
-  background-image: -webkit-linear-gradient(bottom, #fff 0%, rgba(105, 90, 166, 0.35) 99%, rgba(105, 90, 166, 0.5) 100%);
-  background-image: linear-gradient(to top, #fff 0%, rgba(105, 90, 166, 0.35) 99%, rgba(105, 90, 166, 0.5) 100%);
+  background-color: #212529;
   width: 100%;
   animation: typing 3s steps(19) alternate infinite,
           line 1s infinite;
