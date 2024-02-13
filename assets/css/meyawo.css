@@ -89,6 +89,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .typewriter{
 position: relative;
+white-space: nowrap;
 }
 
 .typewriter::after{
@@ -113,6 +114,12 @@ position: relative;
    color: transparent;
  }
 }             
+
+@media only screen and (max-width: 600px) {
+  .typewriter {
+    font-size: 16px; /* Adjust font size for smaller screens */
+  }
+}
 
 p {
   margin-top: 3rem;
