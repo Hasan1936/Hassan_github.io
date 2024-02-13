@@ -12125,7 +12125,7 @@ pre .code {
   -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-  max-width: 1000px;
+  max-width: 1200px;
 }
 
 @media only screen and (max-width: 600px) {
